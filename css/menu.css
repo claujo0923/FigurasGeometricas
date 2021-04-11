@@ -1,0 +1,36 @@
+nav {
+    margin: 20px;
+    background-color: rgb(247, 39, 39);
+    overflow: hidden;/*se utiliza para que el contenedor  no se sobrepase de los limites de su otro contenedor*/
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+   }
+
+.menu {
+    display: inline-block;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 20px 2px 20px ;
+    list-style: none;
+}
+
+.menu a {
+    padding: 2px;/*le doy espacio entre los links del menu*/
+    display: block;/*Hago que el elemento en linea se comporte como una caja*/
+    border: 3px solid green;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: yellow;
+    border: 3px black solid; 
+    border-radius: 6px;
+    color: rgb(233, 29, 124);
+}
